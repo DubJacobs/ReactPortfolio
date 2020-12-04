@@ -8,11 +8,11 @@ const useStyles = makeStyles({
     particlesCanvas: {
         position: 'absolute'
     }
-})
+});
 
 const Home = () => {
 
-    const classes = useStyles()
+    const classes = useStyles();
 
     return (
         <>
@@ -46,7 +46,16 @@ const Home = () => {
                                 sync: true
                             }
                         },
-                        
+                        opacity: {
+                            value: 1,
+                            random: true,
+                            anim: {
+                                enable: true,
+                                speed: 1,
+                                opacity_min: 0.1,
+                                sync: true
+                            }
+                        }
                     }
                 }}
             />
