@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import MobileRightMenuSlider from '@material-ui/core/Drawer';
+import Footer from './Footer';
 import {
     AppBar,
     Toolbar,
@@ -55,11 +56,13 @@ const menuItems = [
     },
     {
         listIcon: <Apps />,
-        listText: 'Portfolio'
+        listText: 'Portfolio',
+        listPath: '/portfolio'
     },
     {
         listIcon: <ContactMail />,
-        listText: 'Contacts'
+        listText: 'Contact',
+        listPath: '/contact'
     },
 ]
 
@@ -103,6 +106,7 @@ const Navbar = () => {
                     </Typography>
                     <MobileRightMenuSlider onClose={toggleSlider('right', false)} anchor='right' open={state.right}>
                        {sideList('right')} 
+                       <Footer />
                     </MobileRightMenuSlider>
                     </Toolbar>
                 </AppBar>

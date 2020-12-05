@@ -2,7 +2,6 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Box } from '@material-ui/core';
 import Navbar from './Navbar';
-import { CallReceived } from '@material-ui/icons';
 
 const useStyles = makeStyles(theme=>({
     mainContainer: {
@@ -157,11 +156,11 @@ const Resume = () => {
             </Typography>
         </Box>
         <Typography variant='h2' className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-            2020
+            2014
         </Typography>
         <Box component='div' className={classes.timeLineItem}>
             <Typography variant='h5' aligh='center' className={classes.subHeading}>
-                web design
+                i smoke weed
             </Typography>
             <Typography variant='body1' aligh='center' style={{color: 'tomato'}}>
                 company name 
