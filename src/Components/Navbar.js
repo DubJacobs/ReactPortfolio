@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
-import MobileRightMenuSlider from '@material-ui/core/Drawer';
+import MobileLeftMenuSlider from '@material-ui/core/Drawer';
 import Footer from './Footer';
 import {
     AppBar,
@@ -69,7 +69,7 @@ const menuItems = [
 const Navbar = () => {
 
     const [state, setState] = useState({
-        right: false
+        left: false
     });
 
     const toggleSlider = ((slider, open) => () => {
@@ -96,18 +96,18 @@ const Navbar = () => {
         <>
             
             <Box className={classes.menuSliderContainer} component='nav'>
-                <AppBar position='static' style={{ background: '#222' }}>
+                <AppBar position='fixed' style={{ background: '#222' }}>
                     <Toolbar>
-                        <IconButton onClick={toggleSlider('right', true)}>
+                        <IconButton onClick={toggleSlider('left', true)}>
                             <ArrowBack style={{ color: 'tomato' }} />
                         </IconButton>
                         <Typography variant='h5' style={{ color: 'tan' }}>
-                            Portfolio
+                            Navigation
                     </Typography>
-                    <MobileRightMenuSlider onClose={toggleSlider('right', false)} anchor='right' open={state.right}>
-                       {sideList('right')} 
+                    <MobileLeftMenuSlider onClose={toggleSlider('left', false)} anchor='left' open={state.left}>
+                       {sideList('left')} 
                        <Footer />
-                    </MobileRightMenuSlider>
+                    </MobileLeftMenuSlider>
                     </Toolbar>
                 </AppBar>
             </Box>

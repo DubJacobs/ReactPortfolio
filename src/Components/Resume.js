@@ -118,13 +118,13 @@ const Resume = () => {
         </Typography>
         <Box component='div' className={classes.timeLineItem}>
             <Typography variant='h5' aligh='center' className={classes.subHeading}>
-                web design
+                Web Design - MERN Full Stack
             </Typography>
             <Typography variant='body1' aligh='center' style={{color: 'tomato'}}>
-                company name 
+            UC Berkeley Coding Bootcamp
             </Typography>
             <Typography variant='subtitle1' aligh='center' style={{color: 'tan'}}>
-                lorem ipsaumn veg dtsg fdtgs esg seg drgs sdrgsdgh  
+                six month Coding Bootcamp focused on MERN stack (MongoDB, Express, React, Node). Other focus areas include base knowledge of Javascript, CSS, and HTML.  
             </Typography>
         </Box>
         <Typography variant='h2' className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
@@ -132,55 +132,55 @@ const Resume = () => {
         </Typography>
         <Box component='div' className={classes.timeLineItem}>
             <Typography variant='h5' aligh='center' className={classes.subHeading}>
-                HTML & CSS
+                SAFe Certified Scrum Master & Project Controller
             </Typography>
             <Typography variant='body1' aligh='center' style={{color: 'tomato'}}>
-                company name 
+                Mi-GSO PCUBED 
             </Typography>
             <Typography variant='subtitle1' aligh='center' style={{color: 'tan'}}>
-                lorem ipsaumn veg dtsg fdtgs esg seg drgs sdrgsdgh  more jhdsbfjbdsfgbnds
+                Full Time Consultant for a Global Project Management Consulting firm. Placed within Infrormation Technology Center of a Fortune 500 Oil & Gas company. Focused methodologies include Waterfall and SAFe Agile. 
             </Typography>
         </Box>
         <Typography variant='h2' className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-            2015
+            2017
         </Typography>
         <Box component='div' className={classes.timeLineItem}>
             <Typography variant='h5' aligh='center' className={classes.subHeading}>
-                something else
+                Small Business Consultant
             </Typography>
             <Typography variant='body1' aligh='center' style={{color: 'tomato'}}>
-                full stack bs 
+                Automatic Data Processing 
             </Typography>
             <Typography variant='subtitle1' aligh='center' style={{color: 'tan'}}>
-                lorem ipsaumn veg dtsg fdtgs esg seg drgs sdrgsdgh   djbfnvdhkjbgvjkd ejdnvek djv neiuvnekjn egnfv e 
+                Full Time Small Business Consultant focused on providing variety of technology based solutions to increase efficiency and productivity of Small Businesses. 
             </Typography>
         </Box>
         <Typography variant='h2' className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-            2014
+            2016
         </Typography>
         <Box component='div' className={classes.timeLineItem}>
             <Typography variant='h5' aligh='center' className={classes.subHeading}>
-                i smoke weed
+                Graduate BS in Business Administration 
             </Typography>
             <Typography variant='body1' aligh='center' style={{color: 'tomato'}}>
-                company name 
+                California State University Chico 
             </Typography>
             <Typography variant='subtitle1' aligh='center' style={{color: 'tan'}}>
-                lorem ipsaumn veg dtsg fdtgs esg seg drgs sdrgsdgh  
+                Completed 4 year degree in Business Administration with focus on Marketing and Sales.  
             </Typography>
         </Box>
         <Typography variant='h2' className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-            2020
+            2005
         </Typography>
         <Box component='div' className={classes.timeLineItem}>
             <Typography variant='h5' aligh='center' className={classes.subHeading}>
-                web design
+                Built my First Computer
             </Typography>
             <Typography variant='body1' aligh='center' style={{color: 'tomato'}}>
-                company name 
+                  it ran FEAR. Biggest accomplishment. 
             </Typography>
             <Typography variant='subtitle1' aligh='center' style={{color: 'tan'}}>
-                lorem ipsaumn veg dtsg fdtgs esg seg drgs sdrgsdgh  
+            At 13 I built my first computer with the financial help of my dad. Used that computer until its fateful demise to Limewire my Sophmore year in HighSchool. 
             </Typography>
         </Box>
     </Box>
